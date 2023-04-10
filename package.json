@@ -1,6 +1,19 @@
 {
 	"name": "svelte-react-kit",
-	"version": "0.0.1",
+	"version": "0.1.11",
+	"funding": "https://github.com/sponsors/jpinho",
+	"homepage": "https://github.com/jpinho/svelte-react-kit#readme",
+	"license": "MIT",
+	"keywords": [
+		"svelte",
+		"svelte-kit",
+		"svelte library",
+		"react",
+		"jsx",
+		"javascript",
+		"typescript",
+		"rollup"
+	],
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -14,7 +27,8 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
-		}
+		},
+		"./package.json": "./package.json"
 	},
 	"files": [
 		"dist",
@@ -41,5 +55,9 @@
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jpinho/svelte-react-kit.git"
 	}
 }

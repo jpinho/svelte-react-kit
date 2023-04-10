@@ -1,6 +1,6 @@
-# svelte-react
+# [svelte-react-kit](https://www.npmjs.com/package/svelte-react-kit)
 
-![svelte-react-kit](docs/svelte.png)
+![svelte-react-kit](https://github.com/jpinho/svelte-react-sample-app/blob/main/docs/svelte.png)
 
 Use React components inside Svelte apps.
 
@@ -38,6 +38,8 @@ Check the live demo [here](https://svelte-react.surge.sh), and don't forget to s
 ```bash
 npm i svelte-react-kit
 ```
+
+You can also check a sample app [here](https://github.com/jpinho/svelte-react-sample-app).
 
 ## License
 
