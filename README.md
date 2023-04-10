@@ -1,4 +1,4 @@
-# svelte-react-kit
+# [svelte-react-kit](https://www.npmjs.com/package/svelte-react-kit)
 
 ![svelte-react-kit](https://github.com/jpinho/svelte-react-sample-app/blob/main/docs/svelte.png)
 
