@@ -1,6 +1,6 @@
-# svelte-react
+# svelte-react-kit
 
-![svelte-react-kit](docs/svelte.png)
+![svelte-react-kit](https://github.com/jpinho/svelte-react-sample-app/blob/main/docs/svelte.png)
 
 Use React components inside Svelte apps.
 
