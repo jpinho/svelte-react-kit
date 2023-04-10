@@ -1,58 +1,44 @@
-# create-svelte
+# svelte-react
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![svelte-react-kit](docs/svelte.png)
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+Use React components inside Svelte apps.
 
-## Creating a project
+This repo is the mirror of [RichHarris/react-svelte](https://github.com/Rich-Harris/react-svelte/blob/master/README.md) with some bonus given we also add MaterialUI to the mix here.
 
-If you're seeing this, you've probably already done this step. Congrats!
+```svelte
+<script>
+  import Button from "@material-ui/core/Button";
+  import ReactAdapter from "./utils/ReactAdapter.svelte";
+</script>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<ReactAdapter
+  el={Button}
+  class="mui-btn"
+  children="Hello"
+  variant="contained"
+  color="primary"
+  onClick={() => alert("hello world!")}
+/>
 
-# create a new project in my-app
-npm create svelte@latest my-app
+<style>
+  /**
+   * Styling a React Component from within a Svelte Component.
+   */
+  :global(.mui-btn) {
+    margin: 20px;
+  }
+</style>
 ```
 
-## Developing
+Check the live demo [here](https://svelte-react.surge.sh), and don't forget to see the [BlogPost: Using React Within Svelte Apps](https://jpepinho.medium.com/using-react-within-your-svelte-applications-3b1f2a75aefc).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
-
-## Building
-
-To build your library:
+## Usage
 
 ```bash
-npm run package
+npm i svelte-react-kit
 ```
 
-To create a production version of your showcase app:
+## License
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+[MIT](LICENSE)
