@@ -39,6 +39,8 @@ Check the live demo [here](https://svelte-react.surge.sh), and don't forget to s
 npm i svelte-react-kit
 ```
 
+You can also check a sample app [here](https://github.com/jpinho/svelte-react-sample-app).
+
 ## License
 
 [MIT](LICENSE)
