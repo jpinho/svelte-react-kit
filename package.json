@@ -3,6 +3,7 @@
 	"version": "0.1.7",
 	"funding": "https://github.com/sponsors/jpinho",
 	"license": "MIT",
+  "readme": "README.md",
 	"keywords": [
 		"svelte",
 		"svelte-kit",
