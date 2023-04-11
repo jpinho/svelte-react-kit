@@ -1,19 +1,19 @@
 {
 	"name": "svelte-react-kit",
-	"version": "0.1.4",
-  "funding": "https://github.com/sponsors/jpinho",
-  "license": "MIT",
-  "keywords": [
-    "svelte",
-    "svelte-kit",
-    "svelte library",
-    "react",
-    "jsx",
-    "javascript",
-    "typescript",
-    "rollup"
-  ],
-  "homepage": "https://jpepinho.medium.com/using-react-within-your-svelte-applications-3b1f2a75aefc",
+	"version": "0.1.5",
+	"funding": "https://github.com/sponsors/jpinho",
+	"license": "MIT",
+	"keywords": [
+		"svelte",
+		"svelte-kit",
+		"svelte library",
+		"react",
+		"jsx",
+		"javascript",
+		"typescript",
+		"rollup"
+	],
+	"homepage": "https://jpepinho.medium.com/using-react-within-your-svelte-applications-3b1f2a75aefc",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
