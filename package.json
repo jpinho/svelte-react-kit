@@ -1,10 +1,10 @@
 {
 	"name": "svelte-react-kit",
-	"version": "0.1.11",
-  "description": "Use React components inside Svelte apps.",
+	"version": "0.1.12",
+	"description": "Use React components inside Svelte apps.",
 	"funding": "https://github.com/sponsors/jpinho",
 	"homepage": "https://github.com/jpinho/svelte-react-kit/",
-  "author": "João Pinho",
+	"author": "João Pinho",
 	"license": "MIT",
 	"keywords": [
 		"svelte",
